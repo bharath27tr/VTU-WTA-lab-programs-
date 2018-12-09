@@ -1,0 +1,29 @@
+<?xml-stylesheet type="text/css" href="stud.css"?>
+
+<stud_info>
+<h1>Student details</h1>
+<h3>Student 1</h3>
+
+<ad><lable>USN:<usn>1CG15CS014</usn></lable></ad>
+<ad><lable>Name:<name>Bharath</name></lable></ad>
+<ad><lable>College:<clg>CIT</clg></lable></ad>
+<ad><lable>Branch:<brn>CSE</brn></lable></ad>
+<ad><lable>Yoj:<yoj>2015-16</yoj></lable></ad>
+<ad><lable>mail:<ml>bbb@gmail.com</ml></lable></ad>
+<h3>Student 2</h3>
+
+<ad><lable>USN:<usn>1CG15CS014</usn></lable></ad>
+<ad><lable>Name:<name>Bharath</name></lable></ad>
+<ad><lable>College:<clg>CIT</clg></lable></ad>
+<ad><lable>Branch:<brn>CSE</brn></lable></ad>
+<ad><lable>Yoj:<yoj>2015-16</yoj></lable></ad>
+<ad><lable>mail:<ml>bbb@gmail.com</ml></lable></ad>
+<h3>Student 3</h3>
+
+<ad><lable>USN:<usn>1CG15CS014</usn></lable></ad>
+<ad><lable>Name:<name>Bharath</name></lable></ad>
+<ad><lable>College:<clg>CIT</clg></lable></ad>
+<ad><lable>Branch:<brn>CSE</brn></lable></ad>
+<ad><lable>Yoj:<yoj>2015-16</yoj></lable></ad>
+<ad><lable>mail:<ml>bbb@gmail.com</ml></lable></ad>
+</stud_info>

@@ -1,0 +1,37 @@
+<html>
+<head><title>String oprn</title></head>
+	<body>
+	<script>
+	var ip1=prompt("Enter the Input"," ");
+	if(isNan(ip1))
+	{
+	l=ip1.length
+	for(var i=0;i<l;i++)
+	{
+	s=ip1.charAt(i)
+	if(s=='a' || s=='e' ||s=='i' || s=='o' || s=='u')
+	break;
+	}
+	if(i<l)
+	alert("the position"+(i+1));
+	
+	else
+	alert("Vowel not found");
+	
+	}
+	
+	else
+	{
+	var n,q,r=0;
+	n=parseInt(ip1);
+	while(n!=0)
+	{
+	q=q%10;
+	n=parseInt(n/10);
+	r=r*10+q;
+	}
+	alert("The reverse of a number"+(r));
+	}
+	
+</body>
+</html>

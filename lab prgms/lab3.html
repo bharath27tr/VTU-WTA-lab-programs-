@@ -1,0 +1,35 @@
+<html>
+<head><title>Prgm3</title></head>
+<body>
+<p id="id1"> </p>
+	<script type="text/javascript">
+	var int1=setInterval(grow,100);
+	var input=document.getElementById("id1");
+	var s=5;
+	
+	function grow()
+	{
+	input.innerHTML="text Grow";
+	input.setAttribute("Style","font-size:"+(s++)+"pt; color:red;");
+	
+	if(s==50)
+	{
+	clearInterval(int1);
+	var int2=setInterval(srow,100);
+	}
+	
+	function srow()
+	{
+	input.innerHTML="text shrink";
+	input.setAttribute("Style","font-size:"+(s--)+"pt; color:blue;");
+	
+	if(s==5)
+	{
+	clearInterval(int2);
+	}
+	}
+	}
+	</script>
+	</body>
+	</html>
+	
